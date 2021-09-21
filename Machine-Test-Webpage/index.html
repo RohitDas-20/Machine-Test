@@ -3,16 +3,21 @@
   <head>
     <script type="text/javascript">
 function display(form){
-if (form.username.value=="root") { 
-		if (form.password.value=="root") {              
-										location="page2.html" 
-											} else {
-													alert("Invalid Password")
-													}
-								} else {  alert("Invalid Username")
-										}
-						}
-			</script>
+if (form.username.value=="root") 
+{ 
+if (form.password.value=="root") {              
+location="FileUpload.html" 
+} 
+else {
+alert("Invalid Password")
+}
+ } 
+else 
+{  
+alert("Invalid Username")
+}
+}
+</script>
     </head>
 <style>
     
